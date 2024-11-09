@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8e6e6;
+    color: #333;
+}
+
+header {
+    background-color: #ff3385;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff66b2;
+}
+
+.section {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 100px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff3385;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content img {
+    width: 100px;
+    height: 100px;
+}
+
+.content ul {
+    list-style: none;
+    text-align: left;
+}
+
+.content ul li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 95px;
+    text-align: center;
+    background-color: #ffccdd;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 80px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home img {
+    border-radius: 80%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.home h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.home p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff3385;
+}
+
+.social-media {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Menyelaraskan ikon ke tengah secara horizontal */
+    gap: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+.sducation-item img {
+    width: 40px;
+    height: 40px;
+}
+
